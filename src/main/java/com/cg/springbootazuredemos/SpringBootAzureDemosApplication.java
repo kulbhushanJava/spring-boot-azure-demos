@@ -11,7 +11,7 @@ public class SpringBootAzureDemosApplication {
 	@GetMapping("/message")
 	public String getMessage()
 	{
-		return "Azure App deployed successfully";
+		return "Azure Application deployed successfully";
 	}
 
 	public static void main(String[] args) {
